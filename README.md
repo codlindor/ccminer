@@ -1,8 +1,8 @@
-# CCminer for Termux
+# CCminer for Termux an userland
 
 Based on: https://github.com/Oink70/CCminer-ARM-optimized
 
-Install latest arm64-v8a Termux: https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
+Install  Termux or userland: 
 
 Proceed with installation, configuration & compilation:
 
