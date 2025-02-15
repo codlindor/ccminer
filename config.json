@@ -1,6 +1,18 @@
 {
     "pools":
-        [{[{
+        [{
+            "name": "vipor",
+            "url": "stratum+tcp://fr.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "fastpoool",
+            "url": "fastpool.xyz:6065",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
             "name": "dmzpool",
             "url": "stratum+tcp://158.247.200.58:9999",
             "timeout": 180,
