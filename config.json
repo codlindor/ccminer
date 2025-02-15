@@ -1,8 +1,14 @@
 {
     "pools":
-        [{
-            "name": "US-VIPOR",
-            "url": "stratum+tcp://us.vipor.net:5040",
+        [{[{
+            "name": "dmzpool",
+            "url": "stratum+tcp://158.247.200.58:9999",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "refurbminer",
+            "url": "stratum+tcp://pool.rg3d.eu",
             "timeout": 180,
             "disabled": 1
         },
@@ -15,7 +21,6 @@
         {
             "name": "verusfarm",
             "url": "stratum+tcp://verus.farm:9999",
-
             "timeout": 180,
             "disabled": 1
         },
@@ -39,8 +44,7 @@
     "threads": 8,
     "cpu-priority": 5,
     "cpu-affinity": -16,
-    "retry-pause": 1
+    "retry-pause": 1,
     "timeout": 99999999999999999999999999999999,
     "background": "true"
-    "keep-alive": "true"
 }   
