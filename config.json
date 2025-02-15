@@ -8,7 +8,7 @@
         },
         {
             "name": "fastpoool",
-            "url": "fastpool.xyz:6065",
+            "url": "stratum+tcp://fastpool.xyz:6065",
             "timeout": 180,
             "disabled": 1
         },
