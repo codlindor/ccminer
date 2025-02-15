@@ -20,7 +20,7 @@
         },
         {
             "name": "refurbminer",
-            "url": "stratum+tcp://pool.rg3d.eu",
+            "url": "stratum+tcp://pool.rg3d.eu:3956",
             "timeout": 180,
             "disabled": 1
         },
