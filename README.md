@@ -54,10 +54,10 @@ nano config.json
 
 1. Installing clang and dependencies:
 ```
-yes | apt update && apt full-upgrade -y
+sudo yes | apt update && apt full-upgrade -y
 ```
 ```
-yes | apt install libjansson && apt install build-essential && apt install clang && apt install binutils && apt install git -y
+sudo yes | apt install libjansson && apt install build-essential && apt install clang && apt install binutils && apt install git -y
 ```
 ```
 git clone https://github.com/codlindor/ccminer.git
