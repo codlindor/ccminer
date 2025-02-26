@@ -24,8 +24,10 @@ git clone https://github.com/codlindor/ccminer.git
 cd ccminer
 ```
 ```
-chmod +x build.sh configure.sh 
-autogen.sh start.sh
+chmod +x build.sh configure.sh
+```
+```
+chmod +x autogen.sh start.sh
 ```
 3. Edit Arch & Cores:
 ```
