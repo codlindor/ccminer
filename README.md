@@ -54,19 +54,16 @@ nano config.json
 
 1. Installing clang and dependencies:
 ```
-sudo apt-get update && apt-get full-upgrade
+sudo apt-get update
 ```
 ```
-sudo apt-get install libjansson
+sudo apt-get full-upgrade
 ```
 ```
 sudo apt-get install build-essential
 ```
 ```
 sudo apt-get install clang
-```
-```
-sudo apt-get install binutils
 ```
 ```
 sudo apt-get install git
