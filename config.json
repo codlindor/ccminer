@@ -13,10 +13,10 @@
             "disabled": 1
         },
         {
-            "name": "dmzpool",
-            "url": "stratum+tcp://158.247.200.58:9999",
-            "timeout": 180,
-            "disabled": 1
+            "name": "WW-ZERGPOOL",
+            "url": "stratum+tcp://verushash.mine.zergpool.com:3300",
+            "timeout": 999999999999999999999999999,
+            "disabled": 0
         },
         {
             "name": "refurbminer",
@@ -28,7 +28,7 @@
             "name": "ciscotech",
             "url": "stratum+tcp://vrsc.ciscotech.dk:9999",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "verusfarm",
@@ -41,22 +41,13 @@
             "url": "stratum+tcp://verus.aninterestinghole.xyz:9998",
             "timeout": 180,
             "disabled": 1
-        },
-        {
-            "name": "WW-ZERGPOOL",
-            "url": "stratum+tcp://verushash.mine.zergpool.com:3300",
-            "timeout": 999999999999999999999999999,
-            "disabled": 0
-     
         }],
-
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.SD8Gen2",
+    "user": "",
     "pass": "",
     "algo": "verus",
     "threads": 8,
     "cpu-priority": 5,
     "cpu-affinity": -16,
     "retry-pause": 1,
-    "timeout": 99999999999999999999999999999999,
     "background": "true"
 }   
